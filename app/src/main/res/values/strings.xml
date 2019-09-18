@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">FIREBASE</string>
+    
+    
+    <array name="genres">
+
+        <item>Basket</item>
+        <item>Sepak Bola</item>
+        <item>Voli</item>
+        <item>Tenis</item>
+
+    </array>
+</resources>
