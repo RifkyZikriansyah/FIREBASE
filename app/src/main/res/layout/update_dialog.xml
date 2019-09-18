@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_centerHorizontal="true"
+    android:layout_height="match_parent">
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:hint="Enter New Name"
+        android:ems="10"
+        android:layout_margin="15dp"
+        android:id="@+id/editTextName"/>
+
+    <Spinner
+        android:background="#ffff"
+        android:id="@+id/spinnerGenres"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="15dp"
+        android:entries="@array/genres" />
+
+    <Button
+        android:id="@+id/buttonUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UPDATE"
+        android:textStyle="bold"
+        android:textColor="#ffff"
+        android:layout_margin="15dp"
+        android:background="@color/colorPrimary"/>
+
+    <Button
+        android:id="@+id/buttonDelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DELETE"
+        android:textStyle="bold"
+        android:textColor="#ffff"
+        android:layout_margin="15dp"
+        android:background="@color/colorPrimaryDark"/>
+
+
+</LinearLayout>

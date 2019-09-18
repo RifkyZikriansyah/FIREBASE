@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">FIREBASE</string>
-    
-    
+
+
     <array name="genres">
 
         <item>Basket</item>
